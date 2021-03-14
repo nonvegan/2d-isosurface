@@ -1,4 +1,4 @@
-# 2D Isosurface
+# 2D Isosurface: WARNING ---> SLOW
 
 [Wikipedia](https://en.wikipedia.org/wiki/Isosurface)
 
