@@ -97,9 +97,10 @@ function clear() {
     ctx.clearRect(0, 0, width, height)
 }
 
-setup()
-
-setInterval(() => {
-    clear()
-    draw()
-}, getMs(150));
+function animate(){
+    clear();
+    draw();
+    requestAnimationFrame(animate);
+}
+setup();
+animate();
